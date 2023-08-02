@@ -1,0 +1,276 @@
+.custom-page {
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  :root {
+    /* fonts */
+    --font-calibri: Calibri;
+    --font-ibarra-real-nova: "Ibarra Real Nova";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-16xl: 35px;
+  
+    /* Colors */
+    --color-moccasin: #fce1ae;
+    --color-gray: #001010;
+    --color-burlywood: #e9c799;
+  
+    /* border radiuses */
+    --br-xl: 20px;
+  }
+  
+
+  /* csit css */
+
+  .custom-page .csit-tab {
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray);
+    width: 521px;
+    height: 239px;
+    left: calc(100% - 600px);
+    margin-top: 100px;
+    color: var(--color-moccasin);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-calibri);
+    top: 33px;
+  }
+  
+  .custom-page .course {
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    font-size: var(--font-size-16xl);
+  }
+  
+  .custom-page .arrow-icon {
+    position: absolute;
+    top: 72px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  
+  .custom-page .university {
+    position: absolute;
+    top: 190px;
+    left: 25px;
+  }
+  
+  .custom-page .years {
+    margin: 0;
+  }
+  
+  .custom-page .line,
+  .custom-page .time-and-same-container {
+    position: absolute;
+    top: 178px;
+    left: 438px;
+  }
+  
+  .custom-page .line {
+    top: 165px;
+    left: 25px;
+    background-color: var(--color-moccasin);
+    width: 470px;
+    height: 2px;
+  }
+
+  /* Add the 'clicked' class animation */
+
+.arrow-icon{
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+.arrow-icon:active {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  /* info css */
+  
+  .info-tab {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 521px;
+    margin-top: -300px; 
+    color: var(--color-moccasin);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-calibri);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray);
+    left: calc(100% - 600px);
+  }
+  
+  .info {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    right: -10px;
+  }
+  
+  .arrow-icon2 {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Adjust the right position as needed */
+    transform: translateY(-50%); /* Center the arrow vertically */
+    width: 20px; /* Adjust the size of the arrow icon as needed */
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    z-index: 2;
+  }
+  
+  .arrow-icon2:active {
+    transform: translateY(-70%) scale(1.2); /* Adjust the translateY value to move the arrow upward */
+  }
+
+
+  /* site name */
+
+  .note-child {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    border-radius: 50%;
+    background: url(./images/ellipse.png);
+    width: 30px;
+    height: 30px;
+  }
+  .code,
+  .note,
+  .note1 {
+    position: absolute;
+    top: -4px;
+    left: 50px;
+  }
+  .code,
+  .note {
+    top: 44px;
+    left: 17px;
+    width: 155px;
+    height: 44px;
+  }
+  .code {
+    top: 0;
+  }
+  .site-name {
+    position: relative;
+    width: 100%;
+    height: 88px;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-burlywood);
+    font-family: var(--font-ibarra-real-nova);
+    margin-top: -50px; 
+    margin-left: 100px;
+    cursor: pointer;
+  }
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 100px; 
+  width: calc(100% - 100px); 
+  padding: 10px;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-container {
+  position: absolute;
+  margin-left: 200px;
+}
+
+
+  /* bca css */
+
+  .bca-tab {
+    position: absolute;
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray);
+    width: 521px;
+    height: 239px;
+    left: calc(100% - 600px);
+    margin-top: 350px;
+    color: var(--color-moccasin);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-calibri);
+  }
+  
+  
+  .custom-page .course1 {
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    font-size: var(--font-size-16xl);
+  }
+  
+  .custom-page .arrow-icon1 {
+    position: absolute;
+    top: 72px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  
+  .custom-page .university1 {
+    position: absolute;
+    top: 190px;
+    left: 25px;
+  }
+  
+  .custom-page .years1 {
+    margin: 0;
+  }
+  
+  .custom-page .line1,
+  .custom-page .time-and-same-container1 {
+    position: absolute;
+    top: 178px;
+    left: 438px;
+  }
+  
+  .custom-page .line1 {
+    top: 165px;
+    left: 25px;
+    background-color: var(--color-moccasin);
+    width: 470px;
+    height: 2px;
+  }
+
+  /* Add the 'clicked' class animation */
+
+.arrow-icon1{
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+.arrow-icon1:active {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  

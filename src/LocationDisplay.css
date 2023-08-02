@@ -1,0 +1,6 @@
+.latitude,.longitude{
+    color: #fce1ae;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+  }  
