@@ -273,4 +273,45 @@
     transition: transform 0.2s ease-in-out;
   }
   
+
+/* CSS FOR SMALLER SCREEN */
+
+@media (max-width: 800px) {
+
+.custom-page {
+  margin-top: 20px;
+  background: red;
+}
   
+.csit-tab,.bca-tab {
+  max-width: 80%; /* Use a percentage value */
+}
+  
+.custom-page {
+  font-size: 16px;
+}
+
+.info-tab {
+  max-width: 40%;
+  top: 80px;
+  background: green;
+}
+  
+.footer {
+  display: none;
+}
+
+.location-container {
+  margin-left: 100px;
+}
+
+.site-name-container
+{
+  position: relative;
+  top: -53px;
+  left: 250px;
+  background: blue;
+  width: fit-content;
+}
+
+}
